@@ -1,0 +1,52 @@
+
+body{
+    background-color: skyblue;
+}
+#container
+{
+    background-color: silver;
+    display: grid;
+    grid-template-columns: auto auto auto auto auto auto;
+    grid-template-rows: auto auto auto auto auto auto;
+
+}
+
+#container div
+{
+    border: solid 3px red;
+    background-color: springgreen;
+    height: 100px;
+}
+.item1{
+    grid-area: 1/1/1/7
+}
+.item2{
+     grid-area:2/2/2/6;
+}
+.item3{
+    grid-area: 3/3/3/5;
+}
+.item4{
+     
+}
+.item5{
+
+}
+.item6{
+
+}
+.item7{
+
+}
+.item8{
+
+}
+.item9{
+
+}
+.item10{
+
+}
+.item11{
+
+}
