@@ -2,15 +2,49 @@
 {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
+body{
+    margin: 0;
+}
 header{
     height: 100px;
     padding: 20px;
     text-align: right;
+    background-image: url(képek/kastely.jpg);
+    background-position-y: -250px;
+    color: aliceblue;
 }
+nav{
+    color: chartreuse;
+    padding-left: 20px;
+
+}
+nav a 
+{
+    color: white;
+    text-decoration: none;
+}
+nav li {
+    list-style-type: none;
+    padding: 25px;
+}
+nav ul{
+    padding: 0;
+}
+nav a:hover li{
+    color: violet;
+    background-color: white
+}
+footer{
+    text-align: center;
+    min-height: 50px;
+    padding-top: 15px;
+}
+    
+
 
 
 header{background-color: antiquewhite;}
-nav{background-color: aqua;}
+nav{background-color: yellowgreen;}
 .jobbsav{background-color: brown;}
 .tartalom{ background-color: chartreuse;}
 footer{background-color: chocolate;}
