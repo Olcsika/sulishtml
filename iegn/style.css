@@ -56,13 +56,25 @@ footer{
     color: darkgoldenrod;
     text-decoration: underline;
 }
+nav h3{
+    border-bottom: solid 2px black;
+    text-align: center;
+}
+.tartalom{
+    padding: 10px;
+    text-align: center;
+}
+.tartalom h2{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-variant: small-caps;
+}
 
 
 
 header{background-color: antiquewhite;}
-nav{background-color: yellowgreen;}
-.jobbsav{background-color: rgb(0, 112, 163);}
-.tartalom{ background-color: greenyellow;}
+nav{background-color: darkgray;}
+.jobbsav{background-color: darkgray;}
+.tartalom{ background-color: rgb(255, 242, 242);}
 footer{background-color: chocolate;}
 
 #grid-container
@@ -95,12 +107,12 @@ footer{background-color: chocolate;}
     margin: auto;
 
 }
-    footer{background-color:black;}
+    footer{background-color:yellow;}
     
     header{grid-column: 1 / 4;}
     nav{ grid-column: 1;}
     .jobbsav{grid-column: 3;}
-    .tartalom{grid-column: 2;}
+    .tartalom{grid-column: 2; grid-row: 2;}
     footer{grid-column: 1 / 4;}
     
 }
