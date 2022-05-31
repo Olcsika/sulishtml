@@ -9,7 +9,7 @@ header{
     height: 100px;
     padding: 20px;
     text-align: right;
-    background-image: url(képek/kastely.jpg);
+    background-image: url(kepek/kastely.jpg);
     background-position-y: -250px;
     color: aliceblue;
 }
@@ -67,6 +67,11 @@ nav h3{
 .tartalom h2{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-variant: small-caps;
+}
+.tartalom picture *{
+    max-width: 30%;
+    float: left;
+    margin-right: 10px;
 }
 
 
